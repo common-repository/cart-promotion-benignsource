@@ -1,0 +1,43 @@
+ /* Style the list */
+ul.tabcartbs {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+	height:50px;
+    overflow: hidden;
+    background-color: #433a3b;
+}
+
+/* Float the list items side by side */
+ul.tabcartbs li {float: left;}
+
+/* Style the links inside the list items */
+ul.tabcartbs li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+	color:#FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.tabcartbs li a:hover {background-color: #433a3b;
+border-bottom:4px #e96656 solid;}
+
+/* Create an active/current tablink class */
+ul.tabcartbs li a:focus, .active {border-bottom:4px #e96656 solid;}
+
+/* Style the tab content */
+.tabcartbscontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.cartpromotionimg{
+border-radius: 50%;
+border: 4px #e96656 solid;
+}
